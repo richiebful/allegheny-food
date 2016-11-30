@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HTMLParser	dataCleaning.py	/^import HTMLParser$/;"	kind:namespace	line:6
+addr	dataCleaning.py	/^addr = pandas.read_csv("Allegheny_County_Address_Points.csv")$/;"	kind:variable	line:2
+dataCleaning.py	dataCleaning.py	1;"	kind:file	line:1
+extractStreetType	dataCleaning.py	/^def extractStreetType(s, repl):$/;"	kind:function	line:38
+h	dataCleaning.py	/^h = HTMLParser.HTMLParser()$/;"	kind:variable	line:7
+numpy	dataCleaning.py	/^import numpy$/;"	kind:namespace	line:11
+pandas	dataCleaning.py	/^import pandas$/;"	kind:namespace	line:1
+re	dataCleaning.py	/^import re$/;"	kind:namespace	line:20
+regexRepls	dataCleaning.py	/^regexRepls = [("(\\s(Dr|Drive)\\s|Dr(ive)?$)", "DR"), ("(\\sSt\\s|St(\\.|reet)?$)", "ST"),$/;"	kind:variable	line:22
+replacements	dataCleaning.py	/^replacements = []$/;"	kind:variable	line:34
+rest	dataCleaning.py	/^rest = pandas.read_csv("ACHDRestaurentData.csv")$/;"	kind:variable	line:3
+rest	dataCleaning.py	/^rest = rest.rename(columns={'Street Name': 'Street Address'})$/;"	kind:variable	line:13
+restLen	dataCleaning.py	/^restLen = len(rest["Name"])$/;"	kind:variable	line:14
+strName	dataCleaning.py	/^strName = rest["Street Name"]$/;"	kind:variable	line:47

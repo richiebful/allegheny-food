@@ -1,0 +1,8 @@
+var foodMap = L.map("main-map").setView([50.0, 20.0], 13);
+L.tileLayer(//mapbox tile,
+    {
+    attribution: "",
+    maxZoom: 18,
+    id: "",
+	accessToken: ""
+    });
